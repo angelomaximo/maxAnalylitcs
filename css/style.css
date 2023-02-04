@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #121416;
+    color: #FFF;
+    padding: 36px 64px;
+    font-family: Helvetica, sans-serif;
+}
+
+.activities {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+/* TABLE */
+table {
+    font-family: Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    width: 6%;
+}
+
+td, th {
+    border: 1px solid #212529;
+    text-align: left;
+    padding: 8px;
+}
+
+/* tr:nth-child(even) {
+    background-color: #212529;
+} */
+
+/* Focused Hour[fh] Table Data*/
+td:nth-child(even) {
+    width: 3%;
+    text-align: center;
+}
